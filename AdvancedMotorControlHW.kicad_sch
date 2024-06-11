@@ -1,0 +1,1705 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e7471f29-e142-4ec4-89cd-7d3fb2173614")
+	(paper "A4")
+	(title_block
+		(title "Advanced Motor Controller")
+		(company "Electro Synthetics")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:Earth"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "Earth"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 59.69 35.56)
+		(uuid "1f85e330-5bdb-4a3a-bc50-1b609746d2c8")
+	)
+	(no_connect
+		(at 59.69 50.8)
+		(uuid "a8d38e3f-fb93-4ec6-bc1d-f4e7b494ef5f")
+	)
+	(no_connect
+		(at 59.69 57.15)
+		(uuid "e6aa161f-e2d4-4c2c-bc51-aa132aa778f7")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 205.74 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "057c2a29-523e-4c9a-af5f-bfd5d8787a39")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0c5d9a04-33ff-48a3-879f-ead2c2edb256")
+	)
+	(wire
+		(pts
+			(xy 127 120.65) (xy 106.68 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "237e6120-b1cc-4fea-a04e-f784040d9326")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 127 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "397b6fdd-eaf5-449c-a5f7-5bdf5861f987")
+	)
+	(wire
+		(pts
+			(xy 106.68 113.03) (xy 127 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3ae35df9-a148-486f-b2fa-aeb0376db822")
+	)
+	(wire
+		(pts
+			(xy 106.68 140.97) (xy 127 140.97)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3bbf529e-bdf4-4865-be84-4de1bf48fcad")
+	)
+	(wire
+		(pts
+			(xy 205.74 113.03) (xy 185.42 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "426d2ae8-1cc2-4e24-a236-f200c488be53")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 106.68 100.33)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "535ad726-8022-4c4d-a70e-5a846a36dc2f")
+	)
+	(wire
+		(pts
+			(xy 185.42 115.57) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5f21976e-e843-4b66-8ee9-76744657c1d0")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "64490add-5b91-41c1-adc1-2fd196a3f5aa")
+	)
+	(wire
+		(pts
+			(xy 127 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "65daa205-7a7a-43e0-a831-c7499751cba9")
+	)
+	(wire
+		(pts
+			(xy 185.42 123.19) (xy 205.74 123.19)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "73ef72ec-bc2e-4e8e-8fa0-3d1e671fdfb9")
+	)
+	(wire
+		(pts
+			(xy 205.74 133.35) (xy 185.42 133.35)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7c0aaccf-a1a4-4a4f-8f05-45450bed4e88")
+	)
+	(wire
+		(pts
+			(xy 185.42 135.89) (xy 205.74 135.89)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7cacce92-eede-4364-a4f4-d8809a83efe3")
+	)
+	(wire
+		(pts
+			(xy 205.74 128.27) (xy 185.42 128.27)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7ee69e1c-92d3-4b76-96c9-3dd916d7971e")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8fb38bca-e902-407a-b7cd-d3fd6cf57edb")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 185.42 138.43)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9f1389e2-f74c-4fd6-af45-954e6f07c742")
+	)
+	(wire
+		(pts
+			(xy 106.68 123.19) (xy 127 123.19)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a2650f5b-dc33-4466-b16d-72c43c45d342")
+	)
+	(wire
+		(pts
+			(xy 205.74 120.65) (xy 185.42 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ad023869-669a-49f0-8a32-cc5a5b7885d9")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ada4bddd-d5e2-4600-9705-cd7d6ee7036b")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "be98e0ab-c4d2-4e10-811f-809de3d4552a")
+	)
+	(wire
+		(pts
+			(xy 106.68 135.89) (xy 127 135.89)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "c0f4fd06-da74-408c-94a6-e8c4ab68fe05")
+	)
+	(wire
+		(pts
+			(xy 185.42 130.81) (xy 205.74 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ced6994d-54a0-4b83-a219-13a67d086efb")
+	)
+	(wire
+		(pts
+			(xy 127 115.57) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e944ade5-10c3-4db6-a781-3e69d571b053")
+	)
+	(wire
+		(pts
+			(xy 185.42 140.97) (xy 205.74 140.97)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ecc9d9b3-07b1-42de-8223-0b8b6d263dcc")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 106.68 133.35)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f359ccfb-e7c8-44f5-865c-7bf2e4627ad4")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 106.68 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f6708bd9-5605-4f3e-8ad4-6b649f1dc689")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 57.15 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1525c1ab-6738-4f4e-858b-2ec8154236d9")
+		(property "Reference" "MH3"
+			(at 50.8 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.4199 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "3480"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digi-Key"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "36-3480-ND"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95a06ca2-6684-40e8-b284-61da2d37f855")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(reference "MH3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 59.69 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fe522e9-ccd9-4755-8f83-ada57ea28620")
+		(property "Reference" "#PWR0101"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 63.5 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9604d09a-7bb9-4785-962e-9dc9d1002e6e")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 57.15 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f3ca3ce-81f5-4086-a6ef-01ed6512b81a")
+		(property "Reference" "MH1"
+			(at 50.8 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.4199 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "3480"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digi-Key"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "36-3480-ND"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8392cda9-a4ac-48b5-a56a-1a1bd5a5aabf")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 57.15 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a466cfa5-4f5f-44e4-a123-a750a98f19d0")
+		(property "Reference" "MH4"
+			(at 50.8 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 58.4199 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "3480"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digi-Key"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "36-3480-ND"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecb60e62-4814-417d-a1ea-fb5b32a77724")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 57.15 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c65f1b45-79a6-4768-92d6-60359171763b")
+		(property "Reference" "MH2"
+			(at 50.8 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 67.31 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p75.pdf"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 57.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "3480"
+			(at 57.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Digi-Key"
+			(at 57.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "36-3480-ND"
+			(at 57.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b93bc7d-6690-442f-a181-95fe8d1a1be1")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 80.01)
+		(size 58.42 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "4b7eddc1-6540-46dd-9c46-59e6e6497a96")
+		(property "Sheetname" "Processor"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Processor.kicad_sch"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "Phase B Current" input
+			(at 127 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cca146a7-2e51-410f-944a-fcabf227ed93")
+		)
+		(pin "Phase A Current" input
+			(at 127 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a863ec8-6fba-482a-91da-f53b1b56478a")
+		)
+		(pin "Phase C Lower" output
+			(at 127 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7100d239-94bf-4f49-a525-6d7a58a3c48b")
+		)
+		(pin "Phase C Upper" output
+			(at 127 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db44082a-981d-4027-9eef-3c83badf3005")
+		)
+		(pin "Phase B Lower" output
+			(at 127 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e08def8f-f379-48ab-acf5-f83ff8ff37bc")
+		)
+		(pin "Phase A Lower" output
+			(at 127 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0cc0be0-286e-45cb-97ba-46e5cd396f7d")
+		)
+		(pin "FET Temp" input
+			(at 127 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7181f1b-94b1-46a1-8f7f-ffdebe276440")
+		)
+		(pin "Phase B Upper" output
+			(at 127 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56ee7eb9-8d1f-4512-a6e0-204d77620769")
+		)
+		(pin "Phase A Upper" output
+			(at 127 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fe773ea-6efc-493b-8c30-236917b2fcdc")
+		)
+		(pin "SCI DIR" output
+			(at 185.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "def8c810-f1e8-4588-bb79-54055013bb55")
+		)
+		(pin "SCI TX" output
+			(at 185.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "549ff5ab-60fe-45c5-ab83-fadfb2ef41bb")
+		)
+		(pin "SCI RX" input
+			(at 185.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3d4fafa-20b5-4730-a5c4-f5d22dd6e183")
+		)
+		(pin "V Motor Sense" input
+			(at 127 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ded836cf-c66b-41ba-882c-3620c83edb7a")
+		)
+		(pin "Hall B MCU" input
+			(at 127 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "966bcee5-d64a-4253-9795-178ab11fdf39")
+		)
+		(pin "Hall A MCU" input
+			(at 127 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f18d9aa0-8e2e-488d-99bd-5a2c5ed2970f")
+		)
+		(pin "Hall C MCU" input
+			(at 127 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4cff3c3a-5a49-42d0-9ba8-e54b67551c46")
+		)
+		(pin "USB DP" bidirectional
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce66d0c7-0acd-4ee5-9a40-883496be3900")
+		)
+		(pin "USB DM" bidirectional
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cb9efdc-fb0e-4f5b-96ca-a874af42711c")
+		)
+		(pin "BLE SPI RESET" output
+			(at 185.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "09767edd-33e5-4cdb-a806-c8a99723fbe2")
+		)
+		(pin "BLE SPI IRQ" input
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "be8154c5-b6b3-4ec8-b612-93ea4f8d7a8f")
+		)
+		(pin "BLE SPI CS" output
+			(at 185.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "031b4342-5f9d-4b1a-a827-41a9034a26bd")
+		)
+		(pin "BLE SPI CLK" output
+			(at 185.42 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43832fd2-90a0-4ac5-9671-0a54e85172f1")
+		)
+		(pin "BLE SPI MISO" input
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6552de0-163d-417c-b7a4-99dc7b903c82")
+		)
+		(pin "BLE SPI MOSI" output
+			(at 185.42 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "606a29ea-e104-4ed3-b001-a6a75c682bfc")
+		)
+		(pin "Encoder B MCU" input
+			(at 127 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "759d5f4c-1ffc-46e2-a197-baca0239e561")
+		)
+		(pin "Encoder A MCU" input
+			(at 127 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d31e5d68-d807-4a68-90dd-40a51e82b283")
+		)
+		(pin "Encoder Z MCU" input
+			(at 127 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c5c7bdc4-cb05-4e3d-9ef1-492b7e611994")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 107.95)
+		(size 25.4 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "4bd019cd-5e32-4490-9be5-9a086d4f1361")
+		(property "Sheetname" "Communications"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communications.kicad_sch"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "SCI DIR" input
+			(at 205.74 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f52ae7d-9d39-416b-b82f-7290a84f658e")
+		)
+		(pin "SCI TX" input
+			(at 205.74 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "973ca777-77eb-4aa0-8770-3af182a445e0")
+		)
+		(pin "SCI RX" output
+			(at 205.74 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe139b3d-70ba-4146-a046-854bcf42a4af")
+		)
+		(pin "BLE SPI MOSI" input
+			(at 205.74 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bb273fa-f2ab-4230-8654-094883212573")
+		)
+		(pin "BLE SPI MISO" output
+			(at 205.74 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d2dd4db-3495-4e6e-8170-16a64d5f5a73")
+		)
+		(pin "BLE SPI IRQ" output
+			(at 205.74 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4514d36-7a71-4d5d-ab5c-804e79240519")
+		)
+		(pin "USB DM" bidirectional
+			(at 205.74 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9816a83-17c9-411c-8f01-d9ec26aad777")
+		)
+		(pin "USB DP" bidirectional
+			(at 205.74 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ed7b957-6acc-4f96-824a-02af973608c8")
+		)
+		(pin "BLE SPI CLK" input
+			(at 205.74 133.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cc24b4e2-7e7b-4210-922e-f1b852259469")
+		)
+		(pin "BLE SPI CS" input
+			(at 205.74 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3467844f-9fe4-4fe8-ac58-3dc596a203c7")
+		)
+		(pin "BLE SPI RESET" input
+			(at 205.74 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50e98b0e-fd21-4b8f-bf80-ef946996fbaa")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 87.63)
+		(size 50.8 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "a3be7831-60bf-43b0-877c-88a954076da6")
+		(property "Sheetname" "Motor"
+			(at 55.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor.kicad_sch"
+			(at 55.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "Phase A Upper" input
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbc66330-2b0c-4da9-86ea-44b0ae4c0ab0")
+		)
+		(pin "Phase C Lower" input
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5fe4f23-eed9-4a91-b43a-c26d5ddc6fd2")
+		)
+		(pin "Phase C Upper" input
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0296f5c4-bde9-43fa-95a5-446d79a93f0e")
+		)
+		(pin "FET Temp" output
+			(at 106.68 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "db1959c2-7669-4375-b16b-2f2d74f46ff7")
+		)
+		(pin "Phase A Lower" input
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "359de4a1-6e62-4bed-a8ff-8ab516b26ce7")
+		)
+		(pin "Phase B Upper" input
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f26f0675-b1b7-4b17-886f-7ea027f2f4ef")
+		)
+		(pin "Phase B Lower" input
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ea51321-f7cf-4cec-abc6-ab04f2caa287")
+		)
+		(pin "Hall C MCU" output
+			(at 106.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8a57e8f-ffc5-454b-9b1a-da034886781b")
+		)
+		(pin "Encoder A MCU" output
+			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca854ae2-7f4b-44d6-987c-f7d79c6ce817")
+		)
+		(pin "Hall A MCU" output
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccb48b80-cd03-4c87-b772-fae8a9b7cb7d")
+		)
+		(pin "Encoder B MCU" output
+			(at 106.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34a8af62-7041-47fc-8d33-f8c3eec62687")
+		)
+		(pin "Encoder Z MCU" output
+			(at 106.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1a96a58-3dea-44ad-b9f8-e6a2f7098d3c")
+		)
+		(pin "Hall B MCU" output
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a77b9b43-b6eb-431f-8178-36a6c11ee31e")
+		)
+		(pin "Phase B Current Sense" output
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab0cf853-4400-47dd-984e-fc5de4215ca3")
+		)
+		(pin "Phase A Current Sense" output
+			(at 106.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ca7a053-b704-4beb-9fd4-4bae9bd8b9ec")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 80.01)
+		(size 30.48 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1.0000)
+		)
+		(uuid "d01b6d8f-c029-4b0f-b562-bc2507e6696c")
+		(property "Sheetname" "Power Supplies"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supplies.kicad_sch"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "Motor Voltage Sense" output
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7ff232f1-d344-4b4f-a4c4-947077442887")
+		)
+		(instances
+			(project "AdvancedMotorControlHW"
+				(path "/e7471f29-e142-4ec4-89cd-7d3fb2173614"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
